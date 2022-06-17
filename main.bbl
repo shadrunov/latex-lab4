@@ -1,0 +1,56 @@
+\begin{thebibliography}{1}
+\def\selectlanguageifdefined#1{
+\expandafter\ifx\csname date#1\endcsname\relax
+\else\selectlanguage{#1}\fi}
+\providecommand*{\href}[2]{{\small #2}}
+\providecommand*{\url}[1]{{\small #1}}
+\providecommand*{\BibUrl}[1]{\url{#1}}
+\providecommand{\BibAnnote}[1]{}
+\providecommand*{\BibEmph}[1]{#1}
+\ProvideTextCommandDefault{\cyrdash}{\iflanguage{russian}{\hbox
+  to.8em{--\hss--}}{\textemdash}}
+\providecommand*{\BibDash}{\ifdim\lastskip>0pt\unskip\nobreak\hskip.2em plus
+  0.1em\fi
+\cyrdash\hskip.2em plus 0.1em\ignorespaces}
+\renewcommand{\newblock}{\ignorespaces}
+
+\bibitem{crypto:dh}
+\selectlanguageifdefined{english}
+Antipov~Alexander. Публикация статьи М. Хеллмана и
+  У. Диффи "Новые направления в
+  криптографии". \BibDash
+\newblock 1976. \BibDash Jun. \BibDash
+\newblock Access mode: \BibUrl{https://www.securitylab.ru/informer/240713.php}.
+
+\bibitem{rsa:768}
+\selectlanguageifdefined{english}
+Factorization of a 768-Bit RSA Modulus~/ Kleinjung~Thorsten, Aoki~Kazumaro,
+  Franke~Jens, Lenstra~Arjen~K., Thom{\'e}~Emmanuel, Bos~Joppe~W.,
+  Gaudry~Pierrick, Kruppa~Alexander, Montgomery~Peter~L., Osvik~Dag~Arne,
+  te~Riele~Herman, Timofeev~Andrey, and Zimmermann~Paul~// Advances in
+  Cryptology -- CRYPTO 2010~/ ed.\ by\ Rabin~Tal. \BibDash
+\newblock Berlin, Heidelberg~: Springer Berlin Heidelberg. \BibDash
+\newblock 2010. \BibDash
+\newblock P.~333--350.
+
+\bibitem{wiki:rsa_anal}
+\selectlanguageifdefined{english}
+Википедия. Криптоанализ RSA --- Википедия{,}
+  свободная энциклопедия. \BibDash
+\newblock 2022. \BibDash
+\newblock [Онлайн; загружено 16 июня 2022]. Access mode:
+  \BibUrl{https://ru.wikipedia.org/?curid=3131537&oldid=120755392}.
+
+\bibitem{rsa_attack}
+\selectlanguageifdefined{english}
+Stalker. Атаки на RSA. \BibDash
+\newblock Access mode: \BibUrl{http://algolist.ru/defence/attack/rsa.php}.
+
+\bibitem{medium:prime}
+\selectlanguageifdefined{english}
+Prudhomme~Antoine. How to generate big prime numbers — Miller-Rabin. \BibDash
+\newblock 2018. \BibDash May. \BibDash
+\newblock Access mode:
+  \BibUrl{https://medium.com/@prudywsh/how-to-generate-big-prime-numbers-miller-rabin-49e6e6af32fb}.
+
+\end{thebibliography}

@@ -1,0 +1,57 @@
+This is BibTeX, Version 0.99d (TeX Live 2022/Arch Linux)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+The style file: ugost2008.bst
+A level-1 auxiliary file: macros.aux
+A level-1 auxiliary file: TitlePages/simple.aux
+A level-1 auxiliary file: tocpage.aux
+A level-1 auxiliary file: content.aux
+A level-1 auxiliary file: bibpage.aux
+Reallocated wiz_functions (elt_size=8) to 6000 items from 3000.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Database file #1: refs.bib
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Warning--unknown month in crypto:dh
+Warning--empty year/date in rsa_attack
+You've used 5 entries,
+            5635 wiz_defined-function locations,
+            1616 strings with 14377 characters,
+and the built_in function-call counts, 1585 in all, are:
+= -- 197
+> -- 61
+< -- 5
++ -- 23
+- -- 18
+* -- 101
+:= -- 190
+add.period$ -- 20
+call.type$ -- 5
+change.case$ -- 0
+chr.to.int$ -- 0
+cite$ -- 7
+duplicate$ -- 66
+empty$ -- 163
+format.name$ -- 18
+if$ -- 411
+int.to.chr$ -- 0
+int.to.str$ -- 5
+missing$ -- 0
+newline$ -- 45
+num.names$ -- 12
+pop$ -- 23
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 40
+stack$ -- 0
+substring$ -- 32
+swap$ -- 47
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 2
+while$ -- 9
+width$ -- 6
+write$ -- 78
+(There were 2 warnings)
